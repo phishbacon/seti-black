@@ -4,4 +4,7 @@ This is a simple theme in progress. Based on the [Seti Monokai theme](https://gi
 
 * Most things are black
 
+## Screenshot
+![](https://i.imgur.com/ijdMrJj.png)
+
 **Enjoy!**
