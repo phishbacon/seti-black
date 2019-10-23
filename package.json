@@ -3,7 +3,7 @@
     "displayName": "Seti-Black",
     "publisher": "bobsparadox",
     "description": "",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "repository": "https://github.com/bobsparadox/seti-black",
     "engines": {
         "vscode": "^1.39.0"
