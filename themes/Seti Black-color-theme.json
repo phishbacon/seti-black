@@ -252,7 +252,8 @@
 		"statusBar.background": "#000000",
 		"titleBar.activeBackground": "#000000",
 		"titleBar.inactiveBackground": "#101010",
-		"menu.background": "#000000"
+		"menu.background": "#000000",
+		"input.background": "#000000"
 	},
 	"name": "Seti Black"
 }
