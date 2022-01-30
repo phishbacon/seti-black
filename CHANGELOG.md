@@ -13,3 +13,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 # v0.0.6
 * change input background to black
+
+# v0.0.7
+* add template string highlighting
