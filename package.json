@@ -4,10 +4,11 @@
     "publisher": "bobsparadox",
     "description": "",
     "version": "0.0.7",
-    "repository": "https://github.com/bobsparadox/seti-black",
+    "repository": "https://github.com/bobsparadox/seti-black.git",
     "engines": {
         "vscode": "^1.39.0"
     },
+    "icon": "image.png",
     "categories": [
         "Themes"
     ],
