@@ -19,3 +19,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 # v1.0.0
 * add image for version 1!
+
+# v1.1.0
+* add border to sideBar
