@@ -1,14 +1,39 @@
 {
+	"name": "Seti Black",
+	"colors": {
+		"editor.background": "#000000",
+		"editor.foreground": "#D7D7D7",
+		"editorWhitespace.foreground": "#3B3A32",
+		"editor.lineHighlightBackground": "#333333",
+		"editor.selectionBackground": "#444444",
+		"editorCursor.foreground": "#FF8801",
+		"editorGroupHeader.tabsBackground": "#000000",
+
+		"activityBar.background": "#000000",
+
+		"sideBar.background": "#000000",
+		"sideBar.border": "#2B2B2B",
+		"sideBar.dropBackground": "#000000",
+
+		"button.background": "#000000",
+		"badge.background": "#000000",
+
+		"list.inactiveSelectionBackground": "#000000",
+		"list.inactiveFocusBackground": "#444444",
+		"list.focusBackground": "#333333",
+
+		"tab.inactiveBackground": "#101010",
+
+		"statusBar.background": "#000000",
+
+		"titleBar.activeBackground": "#000000",
+		"titleBar.inactiveBackground": "#101010",
+
+		"menu.background": "#000000",
+		"input.background": "#000000"
+	},
+
 	"tokenColors": [
-		{
-			"settings": {
-				"background": "#000000",
-				"foreground": "#D7D7D7",
-				"findHighlight": "#FFE792",
-				"findHighlightForeground": "#000000",
-				"selectionBorder": "#1c1c1c"
-			}
-		},
 		{
 			"name": "Comment",
 			"scope": "comment",
@@ -24,34 +49,15 @@
 			}
 		},
 		{
-			"name": "Number",
-			"scope": "constant.numeric",
-			"settings": {
-				"foreground": "#AE81FF"
-			}
-		},
-		{
-			"name": "Built-in constant",
-			"scope": "constant.language",
-			"settings": {
-				"foreground": "#AE81FF"
-			}
-		},
-		{
-			"name": "User-defined constant",
+			"name": "Constants",
 			"scope": [
+				"constant.numeric",
+				"constant.language",
 				"constant.character",
 				"constant.other"
 			],
 			"settings": {
 				"foreground": "#AE81FF"
-			}
-		},
-		{
-			"name": "Variable",
-			"scope": "variable",
-			"settings": {
-				"fontStyle": ""
 			}
 		},
 		{
@@ -65,7 +71,6 @@
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#F92672"
 			}
 		},
@@ -97,7 +102,6 @@
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#A6E22E"
 			}
 		},
@@ -113,7 +117,6 @@
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#F92672"
 			}
 		},
@@ -121,7 +124,6 @@
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#A6E22E"
 			}
 		},
@@ -129,7 +131,6 @@
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#66D9EF"
 			}
 		},
@@ -137,7 +138,6 @@
 			"name": "Library constant",
 			"scope": "support.constant",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#66D9EF"
 			}
 		},
@@ -146,7 +146,6 @@
 			"scope": "support.type",
 			"settings": {
 				"fontStyle": "italic",
-				"background": "#202D3B",
 				"foreground": "#6CA9E1"
 			}
 		},
@@ -155,7 +154,6 @@
 			"scope": "support.setting",
 			"settings": {
 				"fontStyle": "italic",
-				"background": "#152718",
 				"foreground": "#6CE184"
 			}
 		},
@@ -178,7 +176,6 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"background": "#F92672",
 				"fontStyle": "",
 				"foreground": "#F8F8F0"
 			}
@@ -187,7 +184,6 @@
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"background": "#AE81FF",
 				"foreground": "#F8F8F0"
 			}
 		},
@@ -258,30 +254,4 @@
       }
     }
 	],
-	"colors": {
-		"editor.background": "#000000",
-		"editorCursor.foreground": "#FF8801",
-		"editor.foreground": "#D7D7D7",
-		"editorWhitespace.foreground": "#3B3A32",
-		"editor.lineHighlightBackground": "#333333",
-		"editor.selectionBackground": "#444444",
-		"activityBar.background": "#000000",
-		"sideBar.background": "#000000",
-		"editorGroupHeader.tabsBackground": "#000000",
-		"button.background": "#000000",
-		"badge.background": "#000000",
-		"list.inactiveSelectionBackground": "#000000",
-		"list.inactiveFocusBackground": "#444444",
-		"list.focusBackground": "#333333",
-		"activityBar.border": "#000000",
-		"sideBar.border": "#000000",
-		"sideBar.dropBackground": "#000000",
-		"tab.inactiveBackground": "#101010",
-		"statusBar.background": "#000000",
-		"titleBar.activeBackground": "#000000",
-		"titleBar.inactiveBackground": "#101010",
-		"menu.background": "#000000",
-		"input.background": "#000000"
-	},
-	"name": "Seti Black"
 }
